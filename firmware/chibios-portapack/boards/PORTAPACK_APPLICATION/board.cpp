@@ -23,7 +23,7 @@
 bool hackrf_r9;
 
 extern "C" bool detect_hackrf_r9() {
-    return false;
+    return true;
 }
 
 #if HAL_USE_PAL || defined(__DOXYGEN__)
